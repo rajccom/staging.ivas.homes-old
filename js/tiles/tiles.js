@@ -72,6 +72,7 @@ $(document).on('click', '#LoadMore', function() {
               $('.loader').show();
               $('.loader-1').show();
           },
+          
             success:function(data){
               setTimeout(function() {
                 $('.loader').remove();
