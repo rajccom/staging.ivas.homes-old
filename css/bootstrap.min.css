@@ -1250,3 +1250,9 @@ text-align: right;
 }
 
 
+
+.loader, .loader-1 {
+    background: red;
+    width: 50px;
+    height: 50px;
+}

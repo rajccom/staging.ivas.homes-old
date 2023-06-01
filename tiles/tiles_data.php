@@ -134,6 +134,7 @@ if(isset($_POST["action"]))
 		{
 			
 			$output .= '
+		
 			<div class="col-sm-4 col-lg-4 col-md-4 mb-4 px-3 view_data id-'. $row['product_id'] .'"" id="'. $row['product_id'] .'">
 				<div class="pd-details geeks shadow-sm rounded">
 				<div class="pd-details-image ">

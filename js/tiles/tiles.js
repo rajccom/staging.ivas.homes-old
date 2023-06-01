@@ -70,10 +70,12 @@ $(document).on('click', '#LoadMore', function() {
             data:{action:action, category:category, last_id:lastId, colour:colour, finish:finish, finish_one:finish_one, style:style, size:size, application:application, application_one:application_one, application_areas:application_areas, application_areas_one:application_areas_one, application_areas_two:application_areas_two, application_areas_three:application_areas_three, application_areas_four:application_areas_four, application_areas_five:application_areas_five},
             beforeSend:function(){
               $('.loader').show();
+              $('.loader-1').show();
           },
             success:function(data){
               setTimeout(function() {
                 $('.loader').remove();
+                $('.loader-1').hide();
                 $('#LoadMore').remove();
                 //$('#load-content').append(data);
                 $('.filter_data').append(data);

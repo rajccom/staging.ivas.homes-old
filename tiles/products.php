@@ -19,6 +19,8 @@ $page ='tiles';
 		<div class="col-sm-8 px-5 py-5">
           <div class="text-start">
             <h2 class="m-0 py-4">Tiles</h2>
+
+           
           </div>
 		  
 		   </div>
@@ -79,8 +81,9 @@ $page ='tiles';
             </div>
 
             <div class="col-md-9 product_data">
-
+            <div class="loader-symbol"><div class="loader-1" style="display: none;"></div></div>
                 <div class="row filter_data" id="content" >
+                
                 
                 
                 </div>

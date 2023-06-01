@@ -2,7 +2,7 @@
 <html>
 <head>
 <!-- <base href="https://staging.ivas.homes/" > -->
-<base href="http://localhost/ivas-development/" >
+<base href="http://localhost/staging.ivas.homes/" >
 
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/>
 <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
